@@ -2,6 +2,7 @@
   --font-family: 'Roboto', sans-serif;
   --white-color: #ffffff;
   --secondary-color: #2e2f42;
+  --background-color: rgba(46, 47, 66, 0.7);
   --primary-color: #e5e5e5;
   --third-color: #f4f4fd;
   --base-txt-clr: #2e2f42;
@@ -51,7 +52,7 @@ ul {
   margin-left: auto;
   padding-right: 15px;
   padding-left: 15px;
-  outline: 2px solid red;
+  /* outline: 2px solid red; */
   outline-offset: -2px;
 }
 
@@ -138,7 +139,11 @@ ul {
 }
 
 .hero {
-  background-color: var(--secondary-color);
+  background-color: var(--background-color);
+  background-image: url(../images/hero/people-office\ 1.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
 }
 .title {
   margin-bottom: 40px;
