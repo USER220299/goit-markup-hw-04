@@ -383,8 +383,6 @@ ul {
 .clients-link:hover,
 .clients-link:focus {
   border-color: solid var(--customer-hover);
-}
-.customers-icon:hover .customers-icon:focus {
   color: var(--customer-hover);
 }
 .customers-icon {
