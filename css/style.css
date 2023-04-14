@@ -19,6 +19,7 @@
   --fotter-icons-color: #4d5ae5;
   --footer-icons--hover-color: #31d0aa;
   --customers-color: #8e8f99;
+  --customers-icon-color: #afb1b8;
   --icon-color: #f4f4fd;
 }
 body {
@@ -363,7 +364,7 @@ ul {
   margin-bottom: 72px;
 
   font-size: 36px;
-  line-height: 1.11;
+  line-height: 1.1;
   letter-spacing: 0.02em;
   text-align: center;
   text-transform: capitalize;
@@ -378,6 +379,7 @@ ul {
   height: 88px;
   border-radius: 4px;
   border: 1px solid var(--border-customers-color);
+  color: var(--customers-icon-color);
 }
 
 .clients-link:hover,
@@ -400,6 +402,8 @@ ul {
 }
 .footer-container {
   display: flex;
+  gap: 120px;
+  align-items: baseline;
 }
 .logo-container {
   display: inline-block;
@@ -436,19 +440,20 @@ ul {
   max-width: 264px;
 }
 .footer-list-icon {
-  margin-left: 120px;
+  align-items: baseline;
 }
 
 .footer-media {
   margin-bottom: 16px;
+  font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  color: var(--third-color);
+  color: var(--white-color);
 }
 .footer-icon-container {
   display: flex;
-  gap: 24px;
+  gap: 16px;
 }
 
 .footer-link {
@@ -467,7 +472,7 @@ ul {
 }
 
 .footer-icon {
-  fill: currentColor;
+  fill: var(--icon-color);
 }
 /* ---------------------Portfolio.html------------------- */
 
@@ -511,8 +516,8 @@ ul {
   border: 1px solid transparent;
   color: var(--white-color);
   background-color: var(--secondary-btn-clr);
-  box-shadow: 0px 2px rgba(0, 0, 0, 0.12), 0px 2px rgba(0, 0, 0, 0.08),
-    0px 3px rgba(0, 0, 0, 0.1);
+  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 2px 1px rgba(0, 0, 0, 0.08),
+    0px 2px 2px rgba(0, 0, 0, 0.12);
 }
 .portfolio-list-container {
   display: flex;
@@ -521,6 +526,7 @@ ul {
   row-gap: 48px;
 }
 .our-portfolio {
+  display: block;
   flex-basis: calc((100% - 48px) / 3);
 }
 
@@ -546,6 +552,6 @@ ul {
 }
 .portfolio-card:hover,
 .portfolio-card:focus {
-  box-shadow: 0px 2px rgba(46, 47, 66, 0.08), 0px 1px rgba(46, 47, 66, 0.16),
-    0px 1px rgba(46, 47, 66, 0.08);
+  box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
+    0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
 }
