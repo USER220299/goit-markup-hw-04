@@ -344,9 +344,6 @@ ul {
   background-color: var(--icon-hover-color);
 }
 
-.socials-icon {
-  fill: currentColor;
-}
 /*===============CUSTOMERS SECTION===========*/
 .customers {
   padding-top: 120px;
@@ -382,13 +379,16 @@ ul {
 
 .clients-link:hover,
 .clients-link:focus {
-  border-color: solid var(--customer-hover);
+  border-color: var(--customer-hover);
   color: var(--customer-hover);
 }
 .customers-icon {
   fill: var(--customers-color);
 }
-
+.clients-link .customers-icon:hover,
+.clients-link .customers-icon:focus {
+  fill: currentColor;
+}
 /*=========== FOOTER SECTION========== */
 .footer {
   display: flex;
@@ -517,7 +517,7 @@ ul {
   column-gap: 24px;
   row-gap: 48px;
 }
-. {
+.our-portfolio {
   flex-basis: calc((100% - 48px) / 3);
 }
 
