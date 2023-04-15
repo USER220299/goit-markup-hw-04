@@ -395,11 +395,11 @@ ul {
   color: var(--customer-hover);
 }
 .customers-icon {
-  fill: var(--customers-color);
+  fill: currentColor;
 }
 .clients-link .customers-icon:hover,
 .clients-link .customers-icon:focus {
-  fill: currentColor;
+  fill: var(--customer-hover);
 }
 /*=========== FOOTER SECTION========== */
 .footer {
