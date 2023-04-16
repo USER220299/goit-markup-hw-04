@@ -328,7 +328,7 @@ ul {
   padding-right: 16px;
   border-radius: 0px 0px 4px 4px;
 }
-.card-list {
+.card-list-team {
   padding: 32px 0;
 }
 
@@ -337,13 +337,17 @@ ul {
   justify-content: center;
   gap: 24px;
 }
+.socials-items {
+  width: 40px;
+  height: 40px;
+}
 
 .socials-link {
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 40px;
-  height: 40px;
+  width: 100%;
+  height: 100%;
   background-color: var(--icon-color-backgraund);
   border-radius: 50%;
 }
